@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  resources :episodes
-  resources :shows
-  resources :movies
-  resources :videos
-  resources :sources
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  jsonapi_resources :episodes
+  jsonapi_resources :shows
+  jsonapi_resources :movies
+  jsonapi_resources :videos
+  jsonapi_resources :sources
 end

@@ -9,6 +9,6 @@
 
 show = Show.new(title: 'The West Wing')
 episode = show.episodes.build(title: 'Isaac and Ishmael')
-video = episode.build_video(rtmp_url: 'rtmp://s36czds4wnlgbt.cloudfront.net/cfx/st')
+video = episode.build_video(rtmp_uri: 'rtmp://s36czds4wnlgbt.cloudfront.net/cfx/st')
 video.sources.build(uri: 'https://d2dij7i6ftvu61.cloudfront.net/WestWingS3E1.webm', media_type: 'video/webm')
 show.save
