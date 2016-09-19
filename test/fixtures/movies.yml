@@ -1,14 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  title: MyString
   subtitle: MyString
   released_on: 2016-09-17
   written_by: MyString
   directed_by: MyString
 
 two:
-  name: MyString
+  title: MyString
   subtitle: MyString
   released_on: 2016-09-17
   written_by: MyString

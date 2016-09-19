@@ -4,8 +4,8 @@ one:
   show: 
   title: MyString
   subtitle: MyString
-  season: 1
-  episode: 1
+  season_number: 1
+  episode_number: 1
   aired_on: 2016-09-17
   written_by: MyString
   directed_by: MyString
@@ -14,8 +14,8 @@ two:
   show: 
   title: MyString
   subtitle: MyString
-  season: 1
-  episode: 1
+  season_number: 1
+  episode_number: 1
   aired_on: 2016-09-17
   written_by: MyString
   directed_by: MyString

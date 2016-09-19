@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  url: MyString
-  type: 
+  uri: MyString
+  media_type: 
   video: 
 
 two:
-  url: MyString
-  type: 
+  uri: MyString
+  media_type: 
   video: 

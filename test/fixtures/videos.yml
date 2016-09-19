@@ -3,9 +3,9 @@
 one:
   streamable: one
   streamable_type: Streamable
-  rtmp_url: MyString
+  rtmp_uri: MyString
 
 two:
   streamable: two
   streamable_type: Streamable
-  rtmp_url: MyString
+  rtmp_uri: MyString
