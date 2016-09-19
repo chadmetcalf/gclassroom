@@ -7,7 +7,7 @@ JSONAPI.configure do |config|
 
   # Default Processor, used if a resource specific one is not defined.
   # Must be a class
-  config.default_processor_klass = JSONAPI::Processor
+  # config.default_processor_klass = JSONAPI::Processor
 
   #:integer, :uuid, :string, or custom (provide a proc)
   config.resource_key_type = :uuid
@@ -27,7 +27,7 @@ JSONAPI.configure do |config|
   config.default_paginator = :none
 
   # Output pagination links at top level
-  config.top_level_links_include_pagination = true
+  # config.top_level_links_include_pagination = true
 
   config.default_page_size = 10
   config.maximum_page_size = 20
